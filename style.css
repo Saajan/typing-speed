@@ -1,0 +1,94 @@
+#nav-bar {
+  height: 90px;
+  background: url(cube1.jpg);
+  background-size: cover;
+  opacity: 0.85;
+}
+#nav-bar:hover {
+  opacity: 1;
+}
+#links {
+  float: right;
+  padding-right: 100px;
+  z-index: 3000;
+  margin-top: -50px;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  z-index: 1;
+  color: white;
+}
+a:hover {
+  color: blue;
+}
+
+body {
+  margin: 0;
+  font-weight: 700;
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 0.7;
+  font-weight: 800;
+}
+#text-box {
+  height: 250px;
+  text-align: center;
+  padding-top: 40px;
+  background: url(cube1.jpg);
+  background-size: cover;
+}
+
+#article {
+  position: relative;
+  margin-left: 19%;
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  background: white;
+  border-radius: 10px;
+  line-height: 1.5;
+  border: 5px solid #7e7e7e;
+}
+
+#textarea {
+  border-radius: 10px;
+  border: 5px solid #7e7e7e;
+  position: relative;
+  top: 20px;
+  width: 60%;
+  height: 20%;
+  margin-top: 25px;
+  font-family: "Comfortaa", cursive;
+}
+#bottom-div {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+#count {
+  font-size: 40px;
+  color: #313438;
+}
+span {
+  font-size: 20px;
+  color: #313438;
+}
+#timer {
+  font-size: 40px;
+  color: #313438;
+}
+h2 {
+  color: white;
+  width: 30%;
+  padding: 20px;
+}
+#logo {
+  height: 20px;
+  width: 40px;
+}
+h3 {
+  color: #313438;
+}
+
