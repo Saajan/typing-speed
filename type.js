@@ -20,6 +20,7 @@ window.onload = function here() {
       clearInterval(timer);
       document.getElementById("result").innerHTML =
         "You type" + " " + messageLength + " " + "chars/min";
+        highlight()
     }
   }
 
@@ -30,4 +31,21 @@ window.onload = function here() {
     document.getElementById("count").innerHTML = "0";
     clearInterval(timer);
   });
+
+  function highlight() {
+    var articleElement = document.getElementById("article");
+    var articleText = articleElement.textContent;
+    console.log(articleText);
+    var compareText = document.getElementById("textarea").value;
+    console.log(compareText);
+    var text = "";
+    articleText
+      .split("")
+      .forEach(function(value, index) {
+        if (value != compareText.charAt(index))
+          text += "<span class='wrong-text'>" + value + "</span>";
+        else text += value;
+      });
+      document.getElementById("article").innerHTML = text;
+  }
 };
