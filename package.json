@@ -1,0 +1,23 @@
+{
+  "name": "typing-speed",
+  "version": "1.0.0",
+  "description": "Typing speed checker.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saajan/typing-speed.git"
+  },
+  "author": "saajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saajan/typing-speed/issues"
+  },
+  "homepage": "https://github.com/Saajan/typing-speed#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

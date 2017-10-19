@@ -1,33 +1,7 @@
-#nav-bar {
-  height: 90px;
-  background: url(cube1.jpg);
-  background-size: cover;
-  opacity: 0.85;
-}
-#nav-bar:hover {
-  opacity: 1;
-}
-#links {
-  float: right;
-  padding-right: 100px;
-  z-index: 3000;
-  margin-top: -50px;
-}
-
-a {
-  text-decoration: none;
-  margin: 10px;
-  z-index: 1;
-  color: white;
-}
-a:hover {
-  color: blue;
-}
-
 body {
   margin: 0;
   font-weight: 700;
-  font-family: "Comfortaa", cursive;
+  font-family: sans-serif, cursive;
   letter-spacing: 0.7;
   font-weight: 800;
 }
@@ -35,8 +9,6 @@ body {
   height: 250px;
   text-align: center;
   padding-top: 40px;
-  background: url(cube1.jpg);
-  background-size: cover;
 }
 
 #article {
@@ -59,7 +31,6 @@ body {
   width: 60%;
   height: 20%;
   margin-top: 25px;
-  font-family: "Comfortaa", cursive;
 }
 #bottom-div {
   position: relative;
