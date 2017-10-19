@@ -15,7 +15,7 @@ body {
   position: relative;
   margin-left: 19%;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   width: 60%;
   background: white;
   border-radius: 10px;
@@ -66,5 +66,26 @@ h3 {
 .wrong-text{
   color:#ff1144;
   font-size:16px;
+}
+
+.reset{
+  font-size: 100%;
+  padding: .5em 1em;
+  background-color: #0078e7;
+  color: #fff;
+  border: 1px solid #999;
+  border: transparent;
+  text-decoration: none;
+  border-radius: 2px;
+  zoom: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
